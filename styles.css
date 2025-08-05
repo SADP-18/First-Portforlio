@@ -361,13 +361,30 @@ section h2::after {
     text-decoration: underline;
 }
 
-/* Footer */
+/* Footer Styles */
 footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+}
+
+footer a.footer-link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+footer a.footer-link:hover {
+    color: #4da0b0;
+    text-decoration: underline;
+}
+
+footer span {
+    color: #aaa;
 }
 
 /* Responsive Design */
@@ -391,3 +408,4 @@ footer {
     }
 
 }
+
