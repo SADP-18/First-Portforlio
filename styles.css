@@ -78,7 +78,7 @@ header {
 
 /* Navigation Styles */
 nav {
-    background: #4da0b0; /* Light blue background */
+    background: #4da0b0; 
     position: sticky;
     top: 0;
     z-index: 100;
@@ -94,7 +94,7 @@ nav ul {
 
 nav ul li {
     margin: 0;
-    position: relative; /* Needed for the underline effect */
+    position: relative; 
 }
 
 nav ul li a {
@@ -123,7 +123,7 @@ nav ul li a::after {
 }
 
 nav ul li a:hover {
-    background-color: #2c7d8b; /* Darker blue on hover */
+    background-color: #2c7d8b; 
 }
 
 nav ul li a:hover::after {
@@ -163,7 +163,7 @@ h2::after {
 /* Section Headers */
 section h2 {
     text-align: center;
-    color: #4da0b0; /* Light blue */
+    color: #4da0b0; 
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 40px;
@@ -175,7 +175,7 @@ section h2::after {
     display: block;
     width: 80px;
     height: 3px;
-    background: #2c7d8b; /* Darker blue */
+    background: #2c7d8b; 
     margin: 15px auto;
 }
 
@@ -389,4 +389,5 @@ footer {
     .timeline-item:nth-child(even) {
         left: 0;
     }
+
 }
